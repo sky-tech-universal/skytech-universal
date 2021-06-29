@@ -331,7 +331,7 @@ main{
     color: var(--Dblue);
 }
 .services .card{
-    margin: auto;
+    margin: 10px auto;
     height: 230px;
     /* border: solid thin green; */
     font-size: 16px;
@@ -363,5 +363,41 @@ main{
     }
     .services .card{
         width: 90%;
+    }
+}
+.news{
+    padding: 30px;
+}
+.news h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--danger);
+}
+.news p{
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.news-img img{
+    object-fit: cover;
+    object-position: center;
+    -o-object-fit: cover;
+    -o-object-position: center;
+    -ms-object-fit: cover;
+    -ms-object-position: center;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+@media(max-width:780px){
+    .news{
+        flex-direction: column;
+        padding: unset;
+    }
+    .news-content{
+        padding: 10px;
     }
 }
