@@ -306,5 +306,62 @@ main{
     .learn-more{
         padding: 10px;
         text-align: unset;
+        margin-bottom: 30px;
+    }
+}
+.our-services{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #00001a6b;
+    font-size: 18px;
+    color: var(--Dwhite);
+    text-transform: capitalize;
+}
+.our-services h1{
+    text-transform: capitalize;
+    color: var(--warning);
+    padding: 20px 10px;
+}
+.services{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.services .card h1{
+    font-size: 19px;
+    color: var(--Dblue);
+}
+.services .card{
+    margin: auto;
+    height: 230px;
+    /* border: solid thin green; */
+    font-size: 16px;
+    background-color: var(--Dwhite);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 4px 2px 3px gray;
+}
+.services .card img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.services .card p{
+    padding: 10px;
+    color: var(--warning);
+}
+@media(max-width:840px){
+    .services{
+        flex-wrap: wrap;
+    }
+    .services .card{
+        width: 45px;
+    }
+}
+@media(max-width:780px){
+    .services{
+        flex-direction: column;
+    }
+    .services .card{
+        width: 90%;
     }
 }
