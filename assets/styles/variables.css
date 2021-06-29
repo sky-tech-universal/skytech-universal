@@ -1,0 +1,138 @@
+:root{
+    --Dwhite: azure;
+    --Nwhite: white;
+    --Dblue: #00001A;
+    --warning: orangered;
+    --danger: crimson;
+    --primary: royalblue;
+}
+.flex{
+    display: flex;
+}
+.flex-ai-c{
+    align-items: center;
+}
+.flex-jc-c{
+    justify-content: center;
+}
+.flex-js-sb{
+    justify-content: space-between;
+}
+.flex-w-w{
+    flex-wrap: wrap;
+}
+.flex-d-rr{
+    flex-direction: row-reverse;
+}
+.flex-d-c{
+    flex-direction: column;
+}
+.flex-d-cr{
+    flex-direction: column-reverse;
+}
+.fx1{
+    flex: 1;
+}
+.fx2{
+    flex: 2;
+}
+.fx3{
+    flex: 3;
+}
+.fx4{
+    flex: 4;
+}
+.fx5{
+    flex: 5;
+}
+.fx6{
+    flex: 6;
+}
+.fw10{
+    width: 10%;
+}
+.fw10{
+    width: 10%;
+}
+.fw20{
+    width: 20%;
+}
+.fw22{
+    width: 22%;
+}
+.fw24{
+    width: 24%;
+}
+.fw32{
+    width: 32%;
+}
+.fw40{
+    width: 40%;
+}
+.fw50{
+    width: 50%;
+}
+.fw60{
+    width: 60%;
+}
+.fw70{
+    width: 70%;
+}
+.fw75{
+    width: 75%;
+}
+.fw80{
+    width: 80%;
+}
+.fw90{
+    width: 90%;
+}
+/* text styles */
+.text-O-E{
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+}
+
+/* font styles */
+.font-xsm{
+    font-size: 9px;
+}
+.font-sm{
+    font-size: 12px;
+}
+.font-md{
+    font-size: 17px;
+}
+.font-lg{
+    font-size: 19px;
+}
+.font-xlg{
+    font-size: 24px;
+}
+.font-bolder{
+    font-weight: bolder;
+}
+.font-bold{
+    font-weight: bold;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+.btn-primary{
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--Dwhite);
+}
+.btn-primary:hover{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    background-color: var(--Dwhite);
+}
