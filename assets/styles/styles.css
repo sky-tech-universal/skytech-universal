@@ -228,6 +228,14 @@ main{
         padding: 10px;
     }
 }
+@media(max-width:840px){
+    .hero-img{
+        flex: 1;
+    }
+    .hero-content{
+        flex: 1;
+    }
+}
 .space{
     /* background-color: green; */
     background-color: var(--warning); 
@@ -244,6 +252,12 @@ main{
     background-color: var(--Dwhite);
     height: 100%;
     z-index: -10px;
+}
+
+@media(max-width:840px){
+    .space .left-space{
+        background-color: transparent;
+    }
 }
 
 @media(max-width:780px){
